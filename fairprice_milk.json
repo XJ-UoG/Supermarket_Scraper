@@ -1,0 +1,404 @@
+[
+    {
+        "name": "Meiji Fresh Milk - Regular",
+        "unit_of_weight": "2LT",
+        "final_price": 6.97,
+        "discounted_price": 6.7,
+        "image_paths": [
+            "fairprice_images/198281_10238055_XL1_20240506.jpg",
+            "fairprice_images/198281_10238055_BXL1_20210430.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Low Fat Fresh Milk - Regular",
+        "unit_of_weight": "2LT",
+        "final_price": 6.97,
+        "discounted_price": 6.7,
+        "image_paths": [
+            "fairprice_images/198282_10549750_XL1_20240506.jpg",
+            "fairprice_images/198282_10549750_BXL1_20210510.jpg"
+        ]
+    },
+    {
+        "name": "F&N Magnolia Fresh Milk",
+        "unit_of_weight": "1L",
+        "final_price": 3.63,
+        "discounted_price": 3.63,
+        "image_paths": [
+            "fairprice_images/1114858_13022014_XL1_20230914.jpg",
+            "fairprice_images/1114858_13022014_LXL1_20230222.jpg",
+            "fairprice_images/1114858_13022014_RXL1_20230222.jpg",
+            "fairprice_images/1114858_13022014_BXL1_20230222.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Pasteurized Fresh Milk - 4.3 Deluxe",
+        "unit_of_weight": "946ML",
+        "final_price": 3.63,
+        "discounted_price": 3.63,
+        "image_paths": [
+            "fairprice_images/1101276_13099521_XL1_20240506.jpg",
+            "fairprice_images/1101276_13099521_LXL1_20230331.jpg",
+            "fairprice_images/1101276_13099521_RXL1_20230331.jpg",
+            "fairprice_images/1101276_13099521_BXL1_20230331.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Pasteurized Fresh Milk",
+        "unit_of_weight": "830ML",
+        "final_price": 3.53,
+        "discounted_price": 3.53,
+        "image_paths": [
+            "fairprice_images/1101930_197386_XL1_20240506.jpg",
+            "fairprice_images/1101930_197386_LXL1_20230413.jpg",
+            "fairprice_images/1101930_197386_BXL1_20230413.jpg"
+        ]
+    },
+    {
+        "name": "Farmhouse Milk - Fresh",
+        "unit_of_weight": "1LT",
+        "final_price": 3.74,
+        "discounted_price": 3.74,
+        "image_paths": [
+            "fairprice_images/193151_458564_XL1_20230106.jpg",
+            "fairprice_images/193151_458564_LXL1_20230106.jpg",
+            "fairprice_images/193151_458564_BXL1_20230106.jpg"
+        ]
+    },
+    {
+        "name": "Farm Fresh Pure Fresh Milk",
+        "unit_of_weight": "2L",
+        "final_price": 6.1,
+        "discounted_price": 5.75,
+        "image_paths": [
+            "fairprice_images/163001_13086897_XL1_20221229.jpg",
+            "fairprice_images/163001_13086897_BXL1_20221229.jpg"
+        ]
+    },
+    {
+        "name": "Marigold 100% Fresh Bottle Milk",
+        "unit_of_weight": "2L",
+        "final_price": 6.88,
+        "discounted_price": 6.55,
+        "image_paths": [
+            "fairprice_images/199452_12468436_XL1_20230822.jpg",
+            "fairprice_images/199452_12468436_BXL1_20230823.jpg"
+        ]
+    },
+    {
+        "name": "Marigold HL Milk - Plain",
+        "unit_of_weight": "1L",
+        "final_price": 3.56,
+        "discounted_price": 3.56,
+        "image_paths": [
+            "fairprice_images/1114804_131467_XL1_20240422.jpg",
+            "fairprice_images/1114804_131467_BXL1_20230705.jpg"
+        ]
+    },
+    {
+        "name": "Greenfields Fresh Milk - Regular",
+        "unit_of_weight": "1.89L",
+        "final_price": 6.05,
+        "discounted_price": 6.05,
+        "image_paths": [
+            "fairprice_images/195479_13062327_XL1_20221223.jpg",
+            "fairprice_images/195479_13062327_BXL1_20230105.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Pasteurized Lactose Free Milk",
+        "unit_of_weight": null,
+        "final_price": 5.8,
+        "discounted_price": 5.25,
+        "image_paths": [
+            "fairprice_images/1316170_13188250_XL1_20240506.jpg",
+            "fairprice_images/1316170_13188250_LXL1_20230108.jpg",
+            "fairprice_images/1316170_13188250_RXL1_20210510.jpg",
+            "fairprice_images/1316170_13188250_BXL1_20210510.jpg"
+        ]
+    },
+    {
+        "name": "Farmhouse Milk - Low Fat",
+        "unit_of_weight": "1L",
+        "final_price": 3.74,
+        "discounted_price": 3.74,
+        "image_paths": [
+            "fairprice_images/193156_497108_XL1_20220729.jpg",
+            "fairprice_images/193156_497108_LXL1_20230307.jpg",
+            "fairprice_images/193156_497108_BXL1_20230307.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Low Fat Milk - Regular",
+        "unit_of_weight": "830ML",
+        "final_price": 3.53,
+        "discounted_price": 3.53,
+        "image_paths": [
+            "fairprice_images/1101943_10826746_XL1_20240506.jpg",
+            "fairprice_images/1101943_10826746_LXL1_20230331.jpg",
+            "fairprice_images/1101943_10826746_BXL1_20230331.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Fresh Milk - Regular",
+        "unit_of_weight": "200ML",
+        "final_price": 1.28,
+        "discounted_price": 1.28,
+        "image_paths": [
+            "fairprice_images/193155_496689_XL1_20221121.jpg",
+            "fairprice_images/193155_496689_LXL1.jpg",
+            "fairprice_images/193155_496689_BXL1_20230108.jpg"
+        ]
+    },
+    {
+        "name": "Greenfields Fresh Milk - Low Fat",
+        "unit_of_weight": "1.89L",
+        "final_price": 6.05,
+        "discounted_price": 6.05,
+        "image_paths": [
+            "fairprice_images/195480_13062328_XL1_20230707.jpg",
+            "fairprice_images/195480_13062328_LXL1_20211027.jpg",
+            "fairprice_images/195480_13062328_BXL1_20211027.jpg"
+        ]
+    },
+    {
+        "name": "Yotsuba Pasteurised Milk",
+        "unit_of_weight": "1L",
+        "final_price": 6.88,
+        "discounted_price": 6.88,
+        "image_paths": [
+            "fairprice_images/1268777_13174592_XL1_20231027.jpg",
+            "fairprice_images/1268777_13174592_LXL1_20231026.jpg",
+            "fairprice_images/1268777_13174592_RXL1_20231026.jpg",
+            "fairprice_images/1268777_13174592_BXL1_20231026.jpg"
+        ]
+    },
+    {
+        "name": "Marigold HL Milk - Plant Sterols",
+        "unit_of_weight": "1LT",
+        "final_price": 3.87,
+        "discounted_price": 3.87,
+        "image_paths": [
+            "fairprice_images/1104241_12561219_XL1_20221013.jpg",
+            "fairprice_images/1104241_12561219_LXL1_20230804.jpg",
+            "fairprice_images/1104241_12561219_BXL1_20220930.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Fresh Bottle Milk - Skimmed",
+        "unit_of_weight": "2L",
+        "final_price": 6.97,
+        "discounted_price": 6.7,
+        "image_paths": [
+            "fairprice_images/198316_13020905_XL1_20240506.jpg"
+        ]
+    },
+    {
+        "name": "Cowhead 100% Fresh Milk",
+        "unit_of_weight": "1L",
+        "final_price": 4.07,
+        "discounted_price": 4.07,
+        "image_paths": [
+            "fairprice_images/1102807_13083479_XL1_20221229.jpg",
+            "fairprice_images/1102807_13083479_LXL1_20230605.jpg",
+            "fairprice_images/1102807_13083479_RXL1_20230605.jpg",
+            "fairprice_images/1102807_13083479_BXL1_20230605.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Fresh Milk - Regular",
+        "unit_of_weight": "450ML",
+        "final_price": 2.47,
+        "discounted_price": 2.47,
+        "image_paths": [
+            "fairprice_images/193211_12678599_XL1_20240506.jpg",
+            "fairprice_images/193211_12678599_LXL1_20230331.jpg",
+            "fairprice_images/193211_12678599_BXL1_20230331.jpg"
+        ]
+    },
+    {
+        "name": "FairPrice Fresh Milk - Regular",
+        "unit_of_weight": "950ML",
+        "final_price": 3.31,
+        "discounted_price": 3.31,
+        "image_paths": [
+            "fairprice_images/166185_13131750_XL1_20221229.jpg"
+        ]
+    },
+    {
+        "name": "Marigold HL Bottle Milk - Plain",
+        "unit_of_weight": "2LT",
+        "final_price": 6.98,
+        "discounted_price": 6.55,
+        "image_paths": [
+            "fairprice_images/1104314_12691777_XL1_20240422.jpg"
+        ]
+    },
+    {
+        "name": "Yotsuba Hokkaido Fresh Milk",
+        "unit_of_weight": "200ML",
+        "final_price": 2.25,
+        "discounted_price": 2.25,
+        "image_paths": [
+            "fairprice_images/1268790_13174593_XL1_20221228.jpg",
+            "fairprice_images/1268790_13174593_LXL1_20211230.jpg",
+            "fairprice_images/1268790_13174593_RXL1_20211230.jpg",
+            "fairprice_images/1268790_13174593_BXL1_20230112.jpg"
+        ]
+    },
+    {
+        "name": "Marigold 100% Fresh Milk",
+        "unit_of_weight": "1L",
+        "final_price": 3.47,
+        "discounted_price": 3.47,
+        "image_paths": [
+            "fairprice_images/193183_11128982_XL1_20230822.jpg",
+            "fairprice_images/193183_11128982_LXL1_20230817.jpg",
+            "fairprice_images/193183_11128982_RXL1_20230823.jpg",
+            "fairprice_images/193183_11128982_BXL1_20230823.jpg"
+        ]
+    },
+    {
+        "name": "F&N Magnolia Plus Fresh Milk - Lactose Free",
+        "unit_of_weight": null,
+        "final_price": 5.24,
+        "discounted_price": 4.7,
+        "image_paths": [
+            "fairprice_images/1281226_13178222_XL1_20230914.jpg",
+            "fairprice_images/1281226_13178222_LXL1_20230420.jpg",
+            "fairprice_images/1281226_13178222_RXL1_20230424.jpg",
+            "fairprice_images/1281226_13178222_BXL1_20230424.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Multivitamin Low Fat Milk",
+        "unit_of_weight": null,
+        "final_price": 5.85,
+        "discounted_price": 4.95,
+        "image_paths": [
+            "fairprice_images/1460994_13223993_XL1_20240506.jpg",
+            "fairprice_images/1460994_13223993_LXL1_20230320.jpg",
+            "fairprice_images/1460994_13223993_BXL1_20230320.jpg"
+        ]
+    },
+    {
+        "name": "Farm Fresh Milk - Lactose Free",
+        "unit_of_weight": "1L",
+        "final_price": 4.08,
+        "discounted_price": 4.08,
+        "image_paths": [
+            "fairprice_images/1208768_13165549_XL1_20221229.jpg",
+            "fairprice_images/1208768_13165549_BXL1_20221229.jpg"
+        ]
+    },
+    {
+        "name": "Meadow Fresh Full Cream Milk",
+        "unit_of_weight": null,
+        "final_price": 4.95,
+        "discounted_price": 4.95,
+        "image_paths": [
+            "fairprice_images/1485643_13230377_XL1_20230509.jpg",
+            "fairprice_images/1485643_13230377_BXL1_20230509.jpg"
+        ]
+    },
+    {
+        "name": "Meiji Lactose Free Milk - Malt",
+        "unit_of_weight": null,
+        "final_price": 5.8,
+        "discounted_price": 5.25,
+        "image_paths": [
+            "fairprice_images/1505163_13237190_XL1_20240506.jpg",
+            "fairprice_images/1505163_13237190_LXL1_20230804.jpg",
+            "fairprice_images/1505163_13237190_RXL1_20230804.jpg",
+            "fairprice_images/1505163_13237190_BXL1_20230804.jpg"
+        ]
+    },
+    {
+        "name": "Magnolia Smoo Low Fat UHT Milk - Original  ",
+        "unit_of_weight": null,
+        "final_price": 3.28,
+        "discounted_price": 3.28,
+        "image_paths": [
+            "fairprice_images/1508356_13237104_XL1_20230821.jpg",
+            "fairprice_images/1508356_13237104_LXL1_20230821.jpg",
+            "fairprice_images/1508356_13237104_RXL1_20230821.jpg",
+            "fairprice_images/1508356_13237104_BXL1_20230821.jpg"
+        ]
+    },
+    {
+        "name": "Meadow Fresh Pure Milk - Low Fat",
+        "unit_of_weight": null,
+        "final_price": 4.95,
+        "discounted_price": 4.95,
+        "image_paths": [
+            "fairprice_images/1485642_13230376_XL1_20230509.jpg",
+            "fairprice_images/1485642_13230376_BXL1_20230509.jpg"
+        ]
+    },
+    {
+        "name": "Stremicks Heritage Foods Vitamin D Organic Fresh Milk",
+        "unit_of_weight": "1.89L",
+        "final_price": 22.51,
+        "discounted_price": 22.51,
+        "image_paths": [
+            "fairprice_images/195065_13023640_XL1_20221229.jpg",
+            "fairprice_images/195065_13023640_BXL1_20230605.jpg"
+        ]
+    },
+    {
+        "name": "Delamere Dairy Goats Milk Whole Fresh Pasteurized",
+        "unit_of_weight": null,
+        "final_price": 14.9,
+        "discounted_price": 14.9,
+        "image_paths": [
+            "fairprice_images/1442507_90133591_XL1_20221103.jpg",
+            "fairprice_images/1442507_90133591_LXL1_20220526.jpg",
+            "fairprice_images/1442507_90133591_BXL1_20220526.jpg"
+        ]
+    },
+    {
+        "name": "WhatIF Foods Bambara Groundnut Milk - Barista (Carton of 12)",
+        "unit_of_weight": null,
+        "final_price": 79.2,
+        "discounted_price": 79.2,
+        "image_paths": [
+            "fairprice_images/1486941_90165669_XL1_20230824.jpg",
+            "fairprice_images/1486941_90165669_RXL1_20230529.jpg"
+        ]
+    },
+    {
+        "name": "Greenfields Fresh Milk - Regular",
+        "unit_of_weight": "1L",
+        "final_price": 3.51,
+        "discounted_price": 3.51,
+        "image_paths": [
+            "fairprice_images/193166_10591078_XL1_20230710.jpg",
+            "fairprice_images/193166_10591078_LXL1_20210929.jpg",
+            "fairprice_images/193166_10591078_BXL1_20210929.jpg"
+        ]
+    },
+    {
+        "name": "F&N Magnolia Low Fat Hi-Cal Milk - Fresh",
+        "unit_of_weight": "1LT",
+        "final_price": 3.63,
+        "discounted_price": 3.5937,
+        "image_paths": [
+            "fairprice_images/1114836_319948_XL1_20230914.jpg",
+            "fairprice_images/1114836_319948_LXL1_20230202.jpg",
+            "fairprice_images/1114836_319948_RXL1_20230202.jpg",
+            "fairprice_images/1114836_319948_BXL1_20230202.jpg"
+        ]
+    },
+    {
+        "name": "F&N Magnolia Plus Lo-Fat Hi-Cal Milk - Omega",
+        "unit_of_weight": "1L",
+        "final_price": 3.63,
+        "discounted_price": 3.5937,
+        "image_paths": [
+            "fairprice_images/1114860_13027683_XL1_20230914.jpg",
+            "fairprice_images/1114860_13027683_LXL1_20230202.jpg",
+            "fairprice_images/1114860_13027683_RXL1_20230202.jpg",
+            "fairprice_images/1114860_13027683_BXL1_20230202.jpg"
+        ]
+    }
+]

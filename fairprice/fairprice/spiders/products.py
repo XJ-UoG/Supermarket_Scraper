@@ -26,6 +26,8 @@ class ProductsSpider(scrapy.Spider):
         product_brand = response.css('a.sc-6ac8ef58-1.cISoLW::text').get()
         product_size = response.css('span.sc-aa673588-1.sc-d5ac8310-3.kzSsPC.jGBApj > span::text').get()
         product_price = response.css('span.sc-aa673588-1.sc-6ac8ef58-5.kQDEta.gbCpHo::text').get()
+        product_sale = response.css('div.sc-934106e3-12.jwqOuC div.sc-934106e3-21.kVgtQW.tagWrapper > ::text').get()
+        product_avail = response.css('div.sc-934106e3-13 hWHlXc span.sc-aa673588-1.dLmBub::text').get()
         product_rating = response.css('span.sc-6fe931dc-4.gnxVUm.pdp::text').get()
         product_link = response.url
 
@@ -37,6 +39,8 @@ class ProductsSpider(scrapy.Spider):
             'product_size': product_size.strip() if product_size else None,
             'product_price': product_price.strip() if product_price else None,
             'product_rating': product_rating.strip() if product_rating else None,
+            'product_sale': product_sale.strip() if product_sale else None,
+            'product_avail': product_avail.strip() if product_avail else None,
             'product_link': product_link,
         }
 
