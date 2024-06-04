@@ -7,14 +7,19 @@ class ProductsSpider(scrapy.Spider):
         'https://www.fairprice.com.sg/category/fresh-milk',
     ]
 
-    def parse(self, response):   
-        self.logger.debug("No product collection found, re-requesting the page with Selenium for scrolling.")
-        yield scrapy.Request(response.url, meta={'scroll': True}, callback=self.parse)
-        product_collection = response.css('div.sc-f0165265-6.FSCyx')
-        products_links = product_collection.css('a.sc-405e7c3c-3.jAMOiw::attr(href)').getall()
-        for product_link in products_links:
-            full_link = response.urljoin(product_link)
-            yield response.follow(full_link, self.parse_product)
+    def parse(self, response):
+        if "scroll" not in response.meta:
+            self.logger.debug("Requesting the page with Selenium for scrolling.")
+            yield scrapy.Request(response.url, meta={'scroll': True}, callback=self.parse)
+        else:
+            self.logger.debug("Parsing response from URL: %s" % response.url)
+            product_collection = response.css('div.sc-f0165265-6.FSCyx')
+            products_links = product_collection.css('a.sc-405e7c3c-3.jAMOiw::attr(href)').getall()
+            self.logger.debug(f"Found {len(products_links)} products")
+
+            for product_link in products_links:
+                full_link = response.urljoin(product_link)
+                yield response.follow(full_link, self.parse_product)
 
     def parse_product(self, response):
         product_name = response.css('span.sc-aa673588-1.drdope::text').get()

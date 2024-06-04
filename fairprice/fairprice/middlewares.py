@@ -1,8 +1,5 @@
 from scrapy import signals
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from scrapy.http import HtmlResponse
 import time
 
@@ -19,14 +16,13 @@ class ScrollingMiddleware:
         return s
 
     def process_request(self, request, spider):
-        spider.logger.debug(f"Using Selenium to access URL: {request.url}")
-        self.driver.get(request.url)
-        
         if request.meta.get('scroll'):
+            spider.logger.debug(f"Using Selenium to access URL: {request.url}")
+            self.driver.get(request.url)
             self.scroll_down(spider)
-
-        body = self.driver.page_source
-        return HtmlResponse(self.driver.current_url, body=body, encoding='utf-8', request=request)
+            body = self.driver.page_source
+            return HtmlResponse(self.driver.current_url, body=body, encoding='utf-8', request=request)
+        return None
 
     def scroll_down(self, spider):
         scroll_pause_time = 2
@@ -36,7 +32,6 @@ class ScrollingMiddleware:
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(scroll_pause_time)
             new_height = self.driver.execute_script("return document.body.scrollHeight")
-            
             if new_height == last_height:
                 # Wait a bit longer to ensure all lazy-loaded content is fetched
                 time.sleep(5)
